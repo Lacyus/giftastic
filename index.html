@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Giphy Gifs for Animals</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="reset.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+<body>
+
+<div id="gifButtons" class="container">
+</div>
+<!-- Overall Container  -->
+<div class="container">
+
+    <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+    <!-- Where all displayed gifs are shown  -->
+        <div id="gifsDisplay"></div>
+    </div>
+
+    <!-- User Animal form to add additional buttons -->
+    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+        <form id="gif-form" role="form">
+            
+            <h2>
+                <legend>Your Animals</legend>
+            </h2>
+
+            <div class="form-group">
+                <label for="animal-input">Add animals of your choice below</label>
+                <input type="text" id="animal-input">
+            </div>
+
+            <input id="addGif" type="submit" value="Add your animal" class="btn btn-primary">
+            <input id="removeGif" type="submit" value="Remove last animal" class="btn btn-primary">
+
+        </form>
+    </div>
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
