@@ -1,0 +1,41 @@
+button{
+    margin: 5px;
+    padding: 10px;
+}
+
+#gifButtons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    margin: 5px;
+    display: inline-block;
+}
+
+.gifDiv{
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+
+}
+.btn-primary {
+    color: #fff;
+    background-color: rgb(199, 30, 30);
+    border-color: rgb(250, 88, 88);
+}
+.form-group{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 600;
+}
